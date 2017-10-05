@@ -44,13 +44,11 @@ subject_test provides the subjects who undertook the activities that created the
 - test/X_test.txt
 - test/y_test.txt
 - test/subject_test.txt
-4. Combine the training and test activity data together.
-5. Join with the activity reference labels to acquire the meaningful name for each.
-6. Combine the training and test subject data together.
-7. Combine the training and test result data together.
-8. Identify the mean and standard deviation columns we need.
-9. Extract the mean and standard deviation columns.
-10. Combine the activity, subject, mean and standard deviation columns together into a single table.
-11. Group the table by activity and subject.
-12. Summarize the grouped table to get the average of each variable for each activity and each subject.
-13. Write the result to "UCI_HAR_Dataset_Means.txt".
+4. Merge the training and test data together appropriately. 
+- Combine the training and test activity data together, joining with the activity reference labels to acquire the meaningful name for each.
+- Combine the training and test subject data together.
+- Combine the training and test result data together.
+5. Identify the mean and standard deviation columns we need from the features file and extract them from the combined result data.
+6. Merger the activity, subject, mean and standard deviation columns together into a single table, grouped by activity and subject.
+7. Summarize the grouped table to get the average of each variable for each activity and each subject.
+8. Write the result to "UCI_HAR_Dataset_Means.txt".
