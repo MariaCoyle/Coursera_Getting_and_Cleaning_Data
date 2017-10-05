@@ -10,7 +10,10 @@ The run_analysis algorithm assumes:
 The data for this project was provided at the data for the project at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 The files used are as follows.
 ### features_info     
-features_info provides information about the variables used on the feature vector. We do not read it as part of the algorithm.
+features_info provides information about the variables used on the feature vector. We do not read it as part of the algorithm, but it tells us that:
+- features with 'mean()' in their name provide mean values. 
+- features with 'std()' in their name provide standard deviation values.
+This information is used as the basis of identifying the appropriate columns to extract for the project.
 ### features
 features has 561 obs of 2 variables that coincide with the 561 variables found in result sets in 'train/X_train.txt' and 'test/X_test.txt'. This data provides the names for the variables of the result sets. It is used to identify the columns that record the mean and standard deviation measurements.
 ### activity_labels
