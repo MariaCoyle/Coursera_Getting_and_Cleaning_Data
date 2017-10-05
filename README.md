@@ -1,12 +1,14 @@
 # Getting and Cleaning Data Course Project - Maria Coyle
-This is my repository for my Coursera - Getting and Cleaning Data project
+This is my repository for my Coursera - Getting and Cleaning Data project. 
 
 ## Notes
 The run_analysis algorithm assumes:
 - the Samsung data is in your working directory
 - the dplyr package is loaded
 
-## Explanation of the files involved 
+## Explanation of the data files involved 
+The data for this project was provided at the data for the project at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+The files used are as follows.
 ### features_info     
 features_info provides information about the variables used on the feature vector. We do not read it as part of the algorithm.
 ### features
