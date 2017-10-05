@@ -7,7 +7,7 @@ The run_analysis algorithm assumes:
 - the dplyr package is loaded
 
 ## Explanation of the data files involved 
-The data for this project was provided at the data for the project at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+The data for this project was provided at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 The files used are as follows.
 ### features_info     
 features_info provides information about the variables used on the feature vector. We do not read it as part of the algorithm, but it tells us that:
