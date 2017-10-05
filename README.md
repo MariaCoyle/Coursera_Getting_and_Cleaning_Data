@@ -12,7 +12,7 @@ The files used are as follows.
 ### features_info     
 features_info provides information about the variables used on the feature vector. We do not read it as part of the algorithm.
 ### features
-features has 561 obs of 2 variables that coincide with the 561 variables found in result sets in 'train/X_train.txt' and 'test/X_test.txt'. This data is used to name the variables of the result sets.
+features has 561 obs of 2 variables that coincide with the 561 variables found in result sets in 'train/X_train.txt' and 'test/X_test.txt'. This data provides the names for the variables of the result sets. It is used to identify the columns that record the mean and standard deviation measurements.
 ### activity_labels
 activity_labels is used to name the activities of the result sets via the 'train/y_train.txt' and 'test/y_test.txt' files.
 
@@ -45,7 +45,7 @@ subject_test provides the subjects who undertook the activities that created the
 - test/y_test.txt
 - test/subject_test.txt
 4. Merge the training and test data together appropriately. 
-- Combine the training and test activity data together, joining with the activity reference labels to acquire the meaningful name for each.
+- Combine the training and test activity data together, joining with the activity reference labels to acquire the meaningful name of each.
 - Combine the training and test subject data together.
 - Combine the training and test result data together.
 5. Identify the mean and standard deviation columns we need from 'features', and extract them from the combined result data.
